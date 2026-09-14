@@ -1,0 +1,27 @@
+# Arquivos de cache e compilação do Python
+__pycache__/
+*.pyc
+
+# Banco de dados local
+petsystem.db
+*.db
+*.sqlite3
+
+# Logs da aplicação
+log/
+*.log
+
+# Imagens e arquivos salvos via Upload
+uploads/*
+!uploads/.gitkeep
+
+# Ambientes virtuais do Python (se existirem)
+env/
+venv/
+.venv/
+
+# Arquivos de configuração de IDE e Sistema Operacional
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
