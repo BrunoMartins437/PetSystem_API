@@ -15,6 +15,7 @@ O arquivo `requirements.txt` do projeto deve conter as seguintes dependências p
 ```text
 Flask==3.0.0
 flask-cors==4.0.0
+flasgger==0.9.7.1
 flask-openapi3==3.0.0
 Flask-SQLAlchemy==3.1.1
 Pillow==10.1.0
@@ -24,7 +25,7 @@ werkzeug==3.0.1
 
 * **Flask**: Framework web leve para construção das rotas da API.
 * **flask-cors**: Gerenciamento das permissões de requisição de origens cruzadas (CORS) para comunicação com o frontend.
-* **flask-openapi3 / pydantic**: Geração e validação automática da documentação OpenAPI/Swagger.
+* **flask-openapi3 / flasgger / pydantic**: Geração e validação automática da documentação OpenAPI/Swagger.
 * **Flask-SQLAlchemy**: ORM para abstração e persistência de dados.
 * **Pillow**: Processamento e manipulação dos arquivos de imagem/foto enviados.
 
